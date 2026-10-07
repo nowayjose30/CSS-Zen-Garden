@@ -1,1 +1,12 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+div.page-wrapper{
+    flex-wrap: wrap;
+}
+section.intro#zen-intro{
+    width: 50%;
+    margin: 0 auto;
+}
+div#zen-supporting{
+    width: 80%;
+    margin: 0 auto;
+}
