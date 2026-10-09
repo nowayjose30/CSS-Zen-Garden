@@ -1,10 +1,40 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
 
-
+body{
+    background-image: url("images/lawn4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;    
+}   
+h3{
+    font-size: larger;
+   stroke: black;
+   stroke-width: 5px;
+    color: rgb(224, 187, 98);
+}
+div{
+    justify-content: space-evenly;
+}
 div.page-wrapper{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
+}
+div.preamble{
+     
+}
+aside{
+    background-image: url("images/Plant-Row.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30%;
+}
+aside>div.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 section.intro#zen-intro{
     width: 50%;
@@ -16,5 +46,10 @@ div#zen-supporting{
 }
 div.explanation#zen-explanation{
     width: auto;
+    display: flex;
+    align-items: flex-end;
     
+}
+div.design-selection#design-selection{
+    width: 50%
 }
