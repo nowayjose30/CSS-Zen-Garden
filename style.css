@@ -1,55 +1,94 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
 
+
 body{
     background-image: url("images/lawn4.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 10%;    
 }   
+
 h3{
-    font-size: larger;
+   text-align: center;
    stroke: black;
    stroke-width: 5px;
-    color: rgb(224, 187, 98);
+   color: rgb(224, 187, 98);
+   
 }
-div{
-    justify-content: space-evenly;
-}
+
 div.page-wrapper{
     display: flex;
     justify-content: space-between;
     
 }
+
 div.preamble{
-     
-}
-aside{
-    background-image: url("images/Plant-Row.png");
+    background-image: url("images/Grave-Text-Box.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 30%;
+    background-size: cover;   
+    align-content: center; 
 }
-aside>div.wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+div.preamble > p{
+    color: rgb(238, 238, 238);
+
 }
+
+
 section.intro#zen-intro{
     width: 50%;
     margin: 0 auto;
 }
+
 div#zen-supporting{
     width: 80%;
     margin: 0 auto;
 }
+
 div.explanation#zen-explanation{
     width: auto;
     display: flex;
     align-items: flex-end;
     
 }
+
 div.design-selection#design-selection{
     width: 50%
+}
+aside a{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column; 
+}
+
+aside.sidebar{
+    background-image: url("images/Plant-Row.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30%;    
+}
+
+aside{
+    color: aliceblue;
+}
+ul {
+   list-style-type: none; 
+   flex-direction: column; 
+}
+aside div.zen-resources{
+    display:flex;
+    text-align:center;
+    flex-direction: column; 
+    
+}
+
+aside>div.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+aside  div.zen-resources > h3:nth-child(1){
+    color: aliceblue;
+    
 }
