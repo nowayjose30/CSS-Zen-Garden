@@ -23,7 +23,8 @@ body {
 
 .intro {
     width: 68%;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 1.25rem;
 }
 
@@ -50,7 +51,6 @@ body {
 }
 
 .summary {
-    grid-column: 1 / span 2;
     min-height: 10rem;
     text-align: center;
 }
@@ -172,5 +172,4 @@ abbr {
 a {
     color: #f5d77f;
 }
-
 
